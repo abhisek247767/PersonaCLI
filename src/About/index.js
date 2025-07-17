@@ -1,30 +1,44 @@
 import { Fragment } from 'preact'
 export default function About() {
-  return (<Fragment>
-    <h2>About</h2>
-    <div>
-      <span>I have been fascinated by computers as long as I can remember.</span><br /><br />
-      <span>Unfortunately, once my family got a Dell Pentium 4, I was not one of these kids who jumped
-        right in the terminal and started coding stuff. Neither did I know about MySpace and its CSS customization.
-        I used the computer to play CS 1.6, watching videos and sometimes do some calculation in an Excel sheet. I did not now at the time the capabilities
-        the tool I had in front had.</span> <br />
-      <span>  I remember once opening an IDE, I think it was Pascal IDE, preinstalled, trying to type on it, and being frustrated because ..nothing was happening.
-        Figured it out what it was years later. </span><br /><br />
-      <span>I took my first programming steps in highschool in Italy. We started with HTML, CSS and Visual Basic Script</span> <br />
-      <span>I liked it, but I was very confused about all this, what is a variable, what is a function, why do we even need them.</span>
-      <span> Who would have thought that I would do that for a living in the future ..:D. </span>
-      <span>After highschool, I took on a bootcamp of 3 months in full stack development. I was promised by the management of the bootcamp that they would find me a job
-        after completing it, but it never happened.
-      </span> <br />
-      <span>Luckily, shortly after, I found a job myself, in a small startup in Udine.</span>
-      <span>I started working as a Javascript developer. With some amazing colleagues I had, I learned a lot during that time.
-        I learned, AngularJS (that felt like magic at the time btw :), got better in Javascript, HTML, CSS. Learned EspressJS and MongoDB. Learned problem solving and
-        bug hunting. I had an amazing time.
-      </span><br /><br />
-      <span>After more than 1 year and a half working, I decided to move to Germany.
+  return (
+    <Fragment>
+      <h2>About me</h2>
+      <div class="about-content">
+        <p>
+          I'm a Full Stack Web Developer specializing in creating robust, scalable applications. 
+          My journey began in college where I didn't even know how to start a computer, but I 
+          discovered my passion for technology through my first programming language - C. From 
+          those humble beginnings, I've grown into a developer who can architect complete 
+          solutions from database to UI.
+        </p>
 
-      </span>
-      <span></span>
-    </div>
-  </Fragment>)
+        <p>
+          As a Full Stack Developer, I design and implement secure, efficient APIs, manage 
+          databases, and ensure seamless cloud integration. On the frontend, I craft visually 
+          stunning interfaces that provide intuitive user experiences. My expertise spans the 
+          entire development lifecycle, allowing me to bring complex visions to life.
+        </p>
+
+        <p>
+          I started with C in my first year of college, then gradually expanded my skills to 
+          JavaScript, Python, and modern frameworks. Through consistent learning, I've mastered 
+          multiple tech stacks and development paradigms. What began as confusion about basic 
+          programming concepts has transformed into a deep understanding of system architecture 
+          and software engineering principles.
+        </p>
+
+        <p>
+          When I'm not coding, you'll find me playing cricket or football - these outdoor 
+          passions keep me balanced and energized. I believe the same strategic thinking and 
+          teamwork from sports translates beautifully into software development.
+        </p>
+
+        <p>
+          My career has taken me from academic curiosity to professional mastery, with 
+          experiences at companies like Radiant Sage Ventures SproutsAI and Interra IT. Each project 
+          challenges me to grow, and I'm always excited for the next problem to solve.
+        </p>
+      </div>
+    </Fragment>
+  )
 }

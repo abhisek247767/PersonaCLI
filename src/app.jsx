@@ -4,6 +4,9 @@ import Intro from './Intro'
 import About from './About'
 import Help from './Help'
 import Contact from './Contact'
+import Skill from './Skill'
+import Education from './Education/education'
+import Experience from './Experience/Experience'
 function writeit(from, e){ /* the magic starts here, this function requires the element from which the value is extracted and an event object */
   var keycode = e.keyCode || e.which
   e = e || window.event; /* window.event fix for browser compatibility */
@@ -138,7 +141,13 @@ function skills() {
   document.getElementById('skills').style.display = 'inline'
   return 'Displaying technical skills...'
 }
-  const availableCommands = {clear, hello, about, help, contact, education, skills}
+function experience() {
+  clearContent()
+  document.getElementById('experience').style.display = 'inline'
+  return 'Displaying professional experience...'
+}
+
+  const availableCommands = {clear, hello, about, help, contact, education, skills,experience}
 
 export function App(props) {
   const [showIntro, setShowIntro] = useState(true)
@@ -235,12 +244,15 @@ export function App(props) {
         <div id="contact" class='content'>
         <Contact />
       </div>
-      {/* <div id="education" class='content'>
+      <div id="education" class='content'>
         <Education />
       </div>
+        <div id="experience" class='content'>
+          <Experience />
+        </div>
       <div id="skills" class='content'>
-        <Skills />
-      </div> */}
+        <Skill />
+      </div>
         <div id="help" className="content">
           <Help />
         </div>

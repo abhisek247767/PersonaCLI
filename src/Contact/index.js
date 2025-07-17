@@ -7,10 +7,10 @@ export default function Contact() {
       <div>
         <span>You can reach me through:</span><br /><br />
         <ul>
-          <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-          <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
-          <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
-          <li>Twitter: <a href="https://twitter.com/yourhandle" target="_blank">@yourhandle</a></li>
+          <li>Email: <a href="mailto:abhisekroy169@gmail.com">abhisekroy169@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">click here</a></li>
+          <li>GitHub: <a href="https://github.com/abhisek247767" target="_blank">click here</a></li>
+          <li>Twitter: <a href="https://x.com/abhisekroy169" target="_blank">click here</a></li>
         </ul>
       </div>
     </Fragment>
