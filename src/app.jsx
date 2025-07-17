@@ -5,7 +5,7 @@ import About from './About'
 import Help from './Help'
 import Contact from './Contact'
 import Skill from './Skill'
-import Education from './Education/education'
+import Education from './Education/Education'
 import Experience from './Experience/Experience'
 function writeit(from, e){ /* the magic starts here, this function requires the element from which the value is extracted and an event object */
   var keycode = e.keyCode || e.which
