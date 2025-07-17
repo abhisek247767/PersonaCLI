@@ -1,6 +1,5 @@
 import { Fragment } from 'preact'
-import './Contact.css' // Create this CSS file for styling
-
+import './contact.css'
 export default function Contact() {
   return (
     <Fragment>
