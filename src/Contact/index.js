@@ -1,16 +1,20 @@
 import { Fragment } from 'preact'
+import './Contact.css' // Create this CSS file for styling
 
 export default function Contact() {
   return (
     <Fragment>
       <h3>Contact</h3>
-      <div>
-        <span>You can reach me through:</span><br /><br />
-        <ul>
-          <li>Email: <a href="mailto:abhisekroy169@gmail.com">abhisekroy169@gmail.com</a></li>
-          <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">click here</a></li>
-          <li>GitHub: <a href="https://github.com/abhisek247767" target="_blank">click here</a></li>
-          <li>Twitter: <a href="https://x.com/abhisekroy169" target="_blank">click here</a></li>
+      <div class="contact-container">
+        <p>You can reach me through:</p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email:</span>
+            <a href="mailto:abhisekroy169@gmail.com" class="contact-link">
+              abhisekroy169@gmail.com
+            </a>
+          </li>
+        
         </ul>
       </div>
     </Fragment>
